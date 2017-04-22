@@ -17,9 +17,9 @@ def is_english_word(word):
     return False
 
 
-# matrix = Image2Vec.vector_gen("examples/1.png")
-# print matrix
-matrix = [["p","a","h","d"],["s", "t", "e", "c"],["r", "n", "h", "l"],["i", "t", "i", "d"]]
+matrix = Image2Vec.vector_gen("1.png")
+print matrix
+# matrix = [["p","a","h","d"],["s", "t", "e", "c"],["r", "n", "h", "l"],["i", "t", "i", "d"]]
 print matrix
 visit = [
          [0,0,0,0],
